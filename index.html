@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario js</title>
+</head>
+
+<body>
+ <h2>Ingreso al sistema</h2>
+
+<div>
+    <form action="">
+        <div>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" required placeholder="Ingrese su usuario" name="usuario">
+            <span style="color:red" id="error-usuario"></span>
+        </div>
+        <div>
+            <label for="clave">Clave:</label>
+            <input type="password" id="clave"  required minlength="6" placeholder="Ingrese su contrasena" name="clave">
+        </div>
+        <div>
+            <button type="submit">Ingresar</button>
+        </div>
+    </form>
+</div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
